@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'ProximaNovaCondensed';
+    src: url('ProximaNovaCond-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ProximaNovaCondensedBold';
+    src: url('ProximaNovaCond-Bold.woff') format('woff');
+}
+
+.wrapper {
+    width: 1280px;
+    margin: 0 auto 0;
+    font-family: 'ProximaNovaCondensed', Arial, sans-serif;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 48px;
+    float: left;
+}
+
+.search-input {
+    width: 658px;
+    height: 38px;
+    padding: 0 11px;
+    margin: 0;
+    border-radius: 0;
+    border: 1px solid #cbd1d4;
+}
+
+.search-type {
+    height: 38px;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.search-button {
+    height: 38px;
+    margin: 0;
+    background-color: #0f8fee;
+}
+
+.advanced-search {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    line-height: 1;
+    color: #999;
+}
+
+.area-switcher {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    line-height: 1;
+    color: #999;
+}
+
+.cover {
+    background: #000;
+    text-align: center;
+    color: #ffffff;
+}
+
+.cover-header {
+    font-family: ProximaNovaCondensedBold, Arial, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.16;
+}
+
+.cover-meta {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 20px;
+    display: inline-block;
+    font-family: "Proxima Nova", sans-serif;
+}
+
+.company-block {
+    width: 900px;
+    height: 145px;
+    margin-left: 210px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 15px;
+    position: relative;
+    border: solid 0.5px #e1e1e1;;
+}
+
+.company-name {
+    margin: 0 auto 0;
+}
+
+.reviews-photo {
+    width: 900px;
+    text-align: center;
+}
+
+.footer-statistics {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #666666;
+    font-size: 14px;
+}
