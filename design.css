@@ -40,8 +40,24 @@ body {
 }
 
 .search-button {
-    height: 38px;
+    color: #fff;
     background-color: #0f8fee;
+
+    font-family: inherit;
+    font-size: inherit;
+
+    border-width: 0;
+
+    text-decoration: none;
+    padding: 14px 20px 14px 20px;
+}
+
+.search-button:hover {
+    background: #3fafff;
+}
+
+.search-button:active {
+    background: #005fbe;
 }
 
 .advanced-search {
@@ -60,19 +76,47 @@ body {
 
 .cover {
     background: #000;
+    background-image: url(img/kr.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    height: 655px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cover-breadcrumbs {
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cover-breadcrumbs:hover {
+    text-decoration: underline;
+}
+
+.cover-header {
+    margin-top:  240px;
+    font-size: 72px;
+    font-style: normal;
     text-align: center;
     color: #ffffff;
 }
 
-.cover-header {
-    font-size: 72px;
+.cover-descriptiion_top {
+    color: #ffffff;
     text-align: center;
-    line-height: normal;
+}
+
+.cover-descriptiion_bottom {
+    margin-top: 0;
 }
 
 .cover-meta {
     font-size: 11px;
     display: inline-block;
+    margin-top: 26px;
 }
 
 .company-block {
